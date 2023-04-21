@@ -1,11 +1,19 @@
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView, StatusBar } from 'react-native';
 import React from 'react';
 import { homeStyles } from './homeStyles';
 
 const Home = () => {
   return (
     <View style={homeStyles.container}>
-      <Text>home</Text>
+      <ScrollView>
+        <View style={homeStyles.innerContainer}>
+            <StatusBar 
+            barStyle='dark-content'
+            backgroundColor='white'
+            />
+
+        </View>
+      </ScrollView>
     </View>
   )
 }
