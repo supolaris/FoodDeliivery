@@ -11,6 +11,7 @@ const Home = () => {
             barStyle='dark-content'
             backgroundColor='white'
             />
+            <Text>helo world</Text>
 
         </View>
       </ScrollView>
